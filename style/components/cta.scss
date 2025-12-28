@@ -1,0 +1,37 @@
+.cta-section {
+  margin: 0 0 200px 0;
+  padding: 80px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.cta-section__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-section__title {
+  width: 640px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 0 20px 0;
+  color: var(--black-title);
+}
+
+.cta-section__description {
+  width: 530px;
+  max-width: 100%;
+  color: var(--grey-text);
+  text-align: center;
+  margin: 0 0 30px 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.cta-section__actions {
+  margin-top: 20px;
+}

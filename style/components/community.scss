@@ -1,0 +1,35 @@
+
+.community {
+  margin: 0 0 144px 0;
+}
+
+.community-info {
+  background-color: var(--bg-color-skills);
+  display: flex;
+  padding: 62px 60px;
+  justify-content: space-between;
+}
+
+.community-main {
+  width: 570px;
+}
+
+.community__title {
+  font-size: 34px;
+  width: 570px;
+}
+
+.mini-title {
+  margin: 0 0 40px 0;
+}
+
+.community__text {
+  width: 540px;
+  color: var(--grey-text);
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.read-link {
+  margin: 40px 0 0 0;
+}

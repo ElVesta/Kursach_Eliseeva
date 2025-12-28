@@ -1,0 +1,47 @@
+.hero {
+  margin: 0px 0px 180px 0px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: row;
+  gap: 144px;
+}
+
+.hero__content__text {
+  h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: var(--black-title);
+    margin: 0px 0px 40px 0px;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--grey-text);
+    margin: 0px 0px 60px 0px;
+  }
+
+  button {
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: var(--white-button);
+    background-color: var(--light-black-links);
+    border-radius: 10px;
+    padding: 23px 64px;
+    transition: background-color 0.1s linear;
+  }
+
+  a {
+    color: var(--white-button);
+  }
+
+  button {
+    &:focus, &:hover {
+      background-color: var(--active-hero-button);
+    }
+  }
+}
