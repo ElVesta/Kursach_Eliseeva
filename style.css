@@ -1192,58 +1192,96 @@ body{
 }
 
 @media (max-width: 1200px) {
-    .about-section__content {
-        gap: 80px;
-    }
-    
-    .stats {
-        gap: 80px;
-    }
+.about-section__content {
+    gap: 80px;
+}
+.stats {
+    gap: 80px;
+}
 }
 
 @media (max-width: 992px) {
-    .about-section__content {
-        flex-direction: column;
-        gap: 100px;
-    }
-    
-    .about-section__info,
-    .about-section__image {
-        width: 100%;
-    }
-    
-    .about-section__image img {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-    }
-    
-    .about-section {
-        margin: 0 0 120px 0;
-    }
+.about-section__content {
+    flex-direction: column;
+    gap: 100px;
+} 
+.about-section__info,
+.about-section__image {
+    width: 100%;
+}
+.about-section__image img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.about-section {
+    margin: 0 0 120px 0;
+}
+}
+@media (max-width: 768px) {
+.stats {
+    flex-direction: column;
+    gap: 40px;
 }
 
-@media (max-width: 768px) {
-    .stats {
-        flex-direction: column;
-        gap: 40px;
-    }
-    
-    .about-section__title {
-        font-size: 40px;
-        margin-bottom: 40px;
-    }
-    
-    .about-section__text {
-        font-size: 18px;
-    }
-    
-    .stats__number {
-        font-size: 42px;
-    }
-    
-    .stats__label {
-        font-size: 18px;
-    }
+.about-section__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.about-section__text {
+    font-size: 18px;
+}
+
+.stats__number {
+    font-size: 42px;
+}
+
+.stats__label {
+    font-size: 18px;
+}
+}
+
+
+@media (max-width: 520px) {
+.skill-box__item{
+    padding:32px 10px;
+}
+.skill-box__item img{
+    width: 260px;
+}
+.main .hero{
+    margin:0px 0px 120px 0px;
+}
+}
+@media (max-width: 450px) {
+
+.menu__btn{
+    font-size:16px;
+    padding:12px 30px;
+}
+.hero__content__text h1{
+    font-size:48px;
+}
+.hero__content__text button{
+    font-size:28px;
+    padding:18px 40px;
+
+}
+.button {
+  padding: 18px 40px;
+  font-size: 28px;
+}
+.community__title{
+  font-size:28px;
+  width:fit-content;
+}
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 }
 

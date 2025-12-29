@@ -615,3 +615,52 @@ body {
     font-size: 18px;
   }
 }
+@media (max-width: 520px) {
+  .skill-box__item {
+    padding: 32px 10px;
+
+    img {
+      width: 260px;
+    }
+  }
+
+  .main .hero {
+    margin: 0px 0px 120px 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu__btn {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+
+  .hero__content__text {
+    h1 {
+      font-size: 48px;
+    }
+
+    button {
+      font-size: 28px;
+      padding: 18px 40px;
+    }
+  }
+
+  .button {
+    padding: 18px 40px;
+    font-size: 28px;
+  }
+
+  .community__title {
+    font-size: 28px;
+    width: fit-content;
+  }
+
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
