@@ -17,14 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  document.querySelectorAll(".skills__link, .all-posts__view-all").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      btn.style.transform = "scale(0.95)";
-      setTimeout(function () {
-        return btn.style.transform = "scale(1)";
-      }, 150);
-    });
-  });
   var viewAllBtn = document.getElementById("viewAllBtn");
   var postsContainer = document.getElementById("postsContainer");
 

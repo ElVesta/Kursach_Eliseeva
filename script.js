@@ -13,13 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-document.querySelectorAll(".skills__link, .all-posts__view-all").forEach(btn => {
-  btn.addEventListener("click", () => {
-    btn.style.transform = "scale(0.95)";
-    setTimeout(() => btn.style.transform = "scale(1)", 150);
-  });
-});
-
 let viewAllBtn = document.getElementById("viewAllBtn");
 let postsContainer = document.getElementById("postsContainer");
 if (viewAllBtn && postsContainer) {
