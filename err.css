@@ -79,3 +79,55 @@ body{
 .err p{
     margin: -60px 0 30px 0;
 }
+
+@media(max-width:963px){
+.err-main{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error{
+    margin: -80px 0 0 0;
+    font-size: 240px;
+}
+.err-text{
+    width: fit-content;
+    text-align: center;
+    padding: 0 15px;
+}
+}
+@media(max-width:520px){
+.error{
+    margin: -60px 0 30px 0;
+    font-size: 160px;
+}
+.err-text{
+    font-size: 34px;
+}
+.err button{
+    font-size:24px;
+    padding:16px 35px;
+}
+.err-main img{
+    width: 350px;
+    height:255px;
+}
+}
+@media(max-width:400px){
+.error{
+    margin: -30px 0 50px 0;
+    font-size: 110px;
+}
+.err-text{
+    font-size: 28px;
+}
+.err button{
+    font-size:16px;
+    padding:10px 10px;
+}
+.err-main img{
+    width: 320px;
+    height:225px;
+}
+}
