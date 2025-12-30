@@ -43,10 +43,9 @@
   line-height: 1.5;
   color: var(--white-button);
   transition: background-color 0.2s ease-in-out;
-
-  &:hover, &:focus {
-    background-color: var(--active-hero-button);
-  }
+}
+.skills__link:hover, .skills__link:focus {
+  background-color: var(--active-hero-button);
 }
 
 .skill-box {

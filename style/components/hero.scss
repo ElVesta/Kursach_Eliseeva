@@ -7,7 +7,10 @@
   flex-direction: row;
   gap: 144px;
 }
-
+.hero__content__img img {
+  width: 661px;
+  height: 661px;
+}
 .hero__content__text {
   h1 {
     font-weight: 600;
@@ -26,12 +29,12 @@
 
   button {
     font-size: 36px;
+    padding: 32px 117px;
     line-height: 1.5;
     letter-spacing: 0.6px;
     color: var(--white-button);
     background-color: var(--light-black-links);
     border-radius: 10px;
-    padding: 23px 64px;
     transition: background-color 0.1s linear;
   }
 

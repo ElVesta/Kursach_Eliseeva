@@ -22,6 +22,11 @@
   gap: 144px;
 }
 
+.hero__content__img img {
+  width: 661px;
+  height: 661px;
+}
+
 .hero__content__text h1 {
   font-weight: 600;
   font-size: 64px;
@@ -37,12 +42,12 @@
 }
 .hero__content__text button {
   font-size: 36px;
+  padding: 32px 117px;
   line-height: 1.5;
   letter-spacing: 0.6px;
   color: var(--white-button);
   background-color: var(--light-black-links);
   border-radius: 10px;
-  padding: 23px 64px;
   transition: background-color 0.1s linear;
 }
 .hero__content__text a {
@@ -64,7 +69,7 @@
 
 .featured-posts__title {
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 29px;
 }
 
 .featured-post {
@@ -173,9 +178,9 @@
 
 .button {
   display: inline-block;
-  padding: 24px 80px;
+  padding: 18px 78px;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.5;
   border-radius: 10px;
   text-decoration: none;
@@ -212,6 +217,10 @@
 
 .mini-title {
   margin: 0 0 40px 0;
+}
+
+.mini-title, .read-link {
+  font-size: 18px;
 }
 
 .community__text {
@@ -263,10 +272,10 @@
 
 .skills__link {
   background-color: var(--light-black-links);
-  border-radius: 10px;
-  padding: 17px 63px;
+  border-radius: 5px;
+  padding: 15px 51px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: var(--white-button);
   transition: background-color 0.2s ease-in-out;
@@ -439,6 +448,7 @@
   justify-content: space-between;
   max-width: 1170px;
   margin: 0 auto;
+  padding: 40px 0;
 }
 
 .features__subtitle {
@@ -539,7 +549,7 @@
 }
 
 .price-tag__amount {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 36px;
   color: var(--light-black-links);
   margin: 0;
@@ -619,8 +629,8 @@
   border: 1px solid var(--grey-text);
   border-radius: 10px;
   transition: box-shadow 0.1s linear, color 0.1s linear;
-  width: 425px;
-  height: 70px;
+  width: 450px;
+  height: 80px;
   padding: 0 0 0 30px;
   font-size: 16px;
   line-height: 1.9;
@@ -646,7 +656,7 @@
   text-align: center;
   letter-spacing: 0.6px;
   color: var(--white-button);
-  padding: 20px 56px;
+  padding: 25px 80px;
   border: none;
   cursor: pointer;
 }
@@ -789,7 +799,7 @@ body {
 .container {
   max-width: 1400px;
   margin: 0px auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .menu {
@@ -838,10 +848,10 @@ body {
 }
 
 .menu__btn {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0.6px;
-  padding: 20px 86px;
+  padding: 17px 57px;
   border: 2px solid var(--light-black-links);
   border-radius: 10px;
   background: none;
@@ -986,6 +996,17 @@ body {
 
   .pricing-cards {
     flex-direction: column;
+  }
+
+  .hero__content__text button {
+    font-size: 32px;
+    padding: 28px 90px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: var(--white-button);
+    background-color: var(--light-black-links);
+    border-radius: 10px;
+    transition: background-color 0.1s linear;
   }
 }
 @media (max-width: 1200px) {

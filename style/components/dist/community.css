@@ -1,4 +1,3 @@
-
 .community {
   margin: 0 0 144px 0;
 }
@@ -22,9 +21,11 @@
 .mini-title {
   margin: 0 0 40px 0;
 }
+
 .mini-title, .read-link {
   font-size: 18px;
 }
+
 .community__text {
   width: 540px;
   color: var(--grey-text);

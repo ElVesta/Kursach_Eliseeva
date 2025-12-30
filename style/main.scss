@@ -117,7 +117,7 @@ body {
 .container {
   max-width: 1400px;
   margin: 0px auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .menu {
@@ -168,10 +168,10 @@ body {
 }
 
 .menu__btn {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0.6px;
-  padding: 20px 86px;
+  padding: 17px 57px;
   border: 2px solid var(--light-black-links);
   border-radius: 10px;
   background: none;
@@ -319,6 +319,16 @@ body {
   .pricing-cards {
     flex-direction: column;
   }
+  .hero__content__text button{
+    font-size: 32px;
+    padding: 28px 90px;
+    line-height:1.5;
+    letter-spacing: 0.6px;
+    color:var(--white-button);
+    background-color: var(--light-black-links);
+    border-radius:10px;
+    transition:background-color 0.1s linear;
+}
 }
 
 @media (max-width: 1200px) {
